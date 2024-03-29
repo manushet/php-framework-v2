@@ -23,7 +23,7 @@ class Registry
      * @param string $name
      * @return mixed|null
      */
-    public function getProperty(string $name): ?mixed
+    public function getProperty(string $name): mixed
     {
         return self::$properties[$name] ?? null;
     }

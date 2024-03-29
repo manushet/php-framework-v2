@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'manu/php-framework',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'name' => 'manu/php-framework-v2',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'e98ab3f73519d1fe9684c5a14bf72cd825e47277',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -19,10 +19,10 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
-        'manu/php-framework' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+        'manu/php-framework-v2' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'e98ab3f73519d1fe9684c5a14bf72cd825e47277',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

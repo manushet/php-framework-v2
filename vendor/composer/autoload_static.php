@@ -15,16 +15,16 @@ class ComposerStaticInite476d6425ac17d76da7d5b983ef2c7d1
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'WFM\\' => 4,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\Yaml\\' => 23,
             'Symfony\\Component\\VarDumper\\' => 28,
-        ),
-        'F' => 
-        array (
-            'Framework\\' => 10,
         ),
         'D' => 
         array (
@@ -38,6 +38,10 @@ class ComposerStaticInite476d6425ac17d76da7d5b983ef2c7d1
     );
 
     public static $prefixDirsPsr4 = array (
+        'WFM\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wfm',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -53,10 +57,6 @@ class ComposerStaticInite476d6425ac17d76da7d5b983ef2c7d1
         'Symfony\\Component\\VarDumper\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
-        ),
-        'Framework\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/framework',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

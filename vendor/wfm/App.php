@@ -1,8 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace App;
+namespace WFM;
 
+use WFM\ErrorHandler;
 use WFM\Registry;
 
 class App
@@ -12,7 +13,10 @@ class App
     public function __construct()
     {
         self::$app = Registry::getInstance();
+
         $this->importParams();
+
+        new ErrorHandler();
     }
 
     protected function importParams(): void

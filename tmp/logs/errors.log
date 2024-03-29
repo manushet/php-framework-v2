@@ -1,0 +1,23 @@
+
+[2024-03-29 16:43:56] Error: Some erorr occured! | File: /app/public/index.php | Line: 12
+*****************************************
+
+[2024-03-29 16:43:56] Error: require_once(/app/public/erros/development.php): Failed to open stream: No such file or directory | File: /app/vendor/wfm/ErrorHandler.php | Line: 57
+*****************************************
+
+[2024-03-29 16:43:56] Error: Uncaught Error: Failed opening required '/app/public/erros/development.php' (include_path='.:/usr/local/lib/php') in /app/vendor/wfm/ErrorHandler.php:57
+Stack trace:
+#0 /app/vendor/wfm/ErrorHandler.php(69): WFM\ErrorHandler->displayError('2', 'require_once(/a...', '/app/vendor/wfm...', 57)
+#1 /app/vendor/wfm/ErrorHandler.php(57): WFM\ErrorHandler->errorHandler('2', 'require_once(/a...', '/app/vendor/wfm...', 57)
+#2 /app/vendor/wfm/ErrorHandler.php(57): require_once('/app/vendor/wfm...')
+#3 /app/vendor/wfm/ErrorHandler.php(32): WFM\ErrorHandler->displayError('Error number', 'Some erorr occu...', '/app/public/ind...', 12, 404)
+#4 [internal function]: WFM\ErrorHandler->exceptionHandler(Object(Exception))
+#5 {main}
+  thrown | File: /app/vendor/wfm/ErrorHandler.php | Line: 57
+*****************************************
+
+[2024-03-29 16:43:56] Error: require_once(/app/public/erros/development.php): Failed to open stream: No such file or directory | File: /app/vendor/wfm/ErrorHandler.php | Line: 57
+*****************************************
+
+[2024-03-29 16:44:52] Error: Some erorr occured! | File: /app/public/index.php | Line: 12
+*****************************************
