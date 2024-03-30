@@ -48,7 +48,6 @@ class View
             }
         }
     }
-
     public function getMeta()
     {
         $out = '<title>' . htmlspecialchars($this->meta['title']) . '</title>' . PHP_EOL; 
@@ -56,5 +55,20 @@ class View
         $out .= '<meta name="keywords" content="' . htmlspecialchars($this->meta['keywords']) . '">' . PHP_EOL; 
 
         return $out;
+    }
+
+    public function getPart(string $file, ?array $data = []): void
+    {
+        if (is_array($data)) {
+            extract($data);
+        }
+
+        $file = APP . "/views/{$file}.php";
+
+        if (is_file($file)) {
+            require($file);
+        } else {
+            throw new \Exception("Part file {$file} is not found");
+        }
     }
 }
