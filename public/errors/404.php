@@ -54,7 +54,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 <div class="wrap">
     <div class="logo">
-        <img src="/errors/images/404.png" alt=""  />
+        <div style="text-align:center;"><h1>Page Not Found</h1></div>
+        <img src="<?=APP_URL;?>errors/images/404.png" alt="404 page not found"/>
         <p><a href="<?=APP_URL;?>">Go back to Home</a></p>
     </div>
 </div>

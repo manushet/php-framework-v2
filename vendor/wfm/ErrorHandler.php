@@ -41,7 +41,7 @@ class ErrorHandler
     }
 
     protected function displayError(string $errno, string $errstr, string $errfile, int $errline, int $response = 500): void
-    {
+    {       
         if ((int)$response === 0) {
             $response = 404;
         }

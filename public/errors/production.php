@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1>An erorr occured</h1>
+<h1>An error occured</h1>
 <p><a href="<?=APP_URL;?>">Go back to Home</a></p>
 
 </body>

@@ -17,6 +17,10 @@ class App
         $this->importParams();
 
         new ErrorHandler();
+
+        $query = trim(urldecode($_SERVER['REQUEST_URI']), '/');
+
+        Router::dispatch($query);
     }
 
     protected function importParams(): void
