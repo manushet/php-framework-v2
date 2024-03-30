@@ -195,3 +195,12 @@ Stack trace:
 
 [2024-03-30 13:14:02] Error: View /app/app/views/Main/index.php is not found | File: /app/vendor/wfm/View.php | Line: 34
 *****************************************
+
+[2024-03-30 13:38:13] Error: syntax error, unexpected token "}" | File: /app/app/controllers/MainController.php | Line: 12
+*****************************************
+
+[2024-03-30 13:43:55] Error: syntax error, unexpected token "}" | File: /app/app/controllers/MainController.php | Line: 14
+*****************************************
+
+[2024-03-30 14:23:56] Error: Array to string conversion | File: /app/app/views/Main/index.php | Line: 5
+*****************************************

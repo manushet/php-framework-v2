@@ -48,4 +48,13 @@ class View
             }
         }
     }
+
+    public function getMeta()
+    {
+        $out = '<title>' . htmlspecialchars($this->meta['title']) . '</title>' . PHP_EOL; 
+        $out .= '<meta name="description" content="' . htmlspecialchars($this->meta['description']) . '">' . PHP_EOL; 
+        $out .= '<meta name="keywords" content="' . htmlspecialchars($this->meta['keywords']) . '">' . PHP_EOL; 
+
+        return $out;
+    }
 }
